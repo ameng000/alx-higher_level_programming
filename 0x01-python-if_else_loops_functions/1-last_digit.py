@@ -11,6 +11,9 @@ elif number < 0:
     print(f"Last digit of {number} is {digit} and is less than 6 and not 0")
 elif digit < 6 and number > 0:
     print(f"Last digit of {number} is {digit} and is less than 6 and not 0")
+else:
+    digit = -digit
+    print(f"Last digit of {number} is {digit} and is less than 6 and not 0")
 
 
 
