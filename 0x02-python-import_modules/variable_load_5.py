@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-def a():
-    return (a)
+a = 98
